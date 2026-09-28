@@ -3,10 +3,12 @@ import { AuthProvider } from './contexts/AuthContext'
 import ProtectedRoute from './components/ProtectedRoute'
 import RedirectIfAuthed from './components/RedirectIfAuthed'
 import AppShell from './components/layout/AppShell'
+
 import Homepage from './pages/Homepage'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
+
 import { TopicsList, TopicDetail } from './pages/Topics'
 import Quiz from './pages/Quiz'
 import Leaderboard from './pages/Leaderboard'
@@ -20,16 +22,30 @@ export default function App() {
     <BrowserRouter>
       <AuthProvider>
         <Routes>
-          {/* Public: homepage -> signup/login. Signed-in users are
-              bounced straight to /dashboard by RedirectIfAuthed. */}
+
+          {/* =========================
+              HOMEPAGE - FIRST PAGE
+          ========================== */}
           <Route
             path="/"
-            element={
-              <RedirectIfAuthed>
-                <Homepage />
-              </RedirectIfAuthed>
-            }
+            element={<Homepage />}
           />
+          <Route
+            path="/home"
+            element={<Homepage />}
+          />
+          <Route
+            path="/homepage"
+            element={<Homepage />}
+          /> 
+          <Route
+            path="/Homepage"
+            element={<Homepage />}
+          />   
+
+          {/* =========================
+              LOGIN
+          ========================== */}
           <Route
             path="/login"
             element={
@@ -38,6 +54,10 @@ export default function App() {
               </RedirectIfAuthed>
             }
           />
+
+          {/* =========================
+              SIGNUP
+          ========================== */}
           <Route
             path="/signup"
             element={
@@ -47,8 +67,9 @@ export default function App() {
             }
           />
 
-          {/* Authenticated app, one responsive layout for mobile + desktop
-              (AppShell switches between a bottom tab bar and a sidebar). */}
+          {/* =========================
+              PROTECTED DASHBOARD
+          ========================== */}
           <Route
             path="/dashboard"
             element={
@@ -57,7 +78,9 @@ export default function App() {
               </ProtectedRoute>
             }
           >
+            {/* First page inside dashboard */}
             <Route index element={<Dashboard />} />
+
             <Route path="topics" element={<TopicsList />} />
             <Route path="topics/:topicId" element={<TopicDetail />} />
             <Route path="topics/:topicId/quiz" element={<Quiz />} />
@@ -67,6 +90,7 @@ export default function App() {
             <Route path="community" element={<Community />} />
             <Route path="profile" element={<Profile />} />
           </Route>
+
         </Routes>
       </AuthProvider>
     </BrowserRouter>

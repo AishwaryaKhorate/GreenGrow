@@ -180,6 +180,115 @@ export const TRANSLATIONS = {
     'advisor.tag.higherYield': 'Higher yield',
     'advisor.tag.saveWater': 'Save water',
     'advisor.tag.restoreSoil': 'Restore soil',
+    // ================= HOME EXTRA =================
+
+'home.smartBadge': 'Smart & Sustainable Agriculture',
+'home.heroHeading1': 'Grow Knowledge.',
+'home.heroHeading2': 'Grow Better.',
+'home.heroDescription':
+  'GreenGrow is a learning platform that helps farmers and agriculture learners discover sustainable farming practices, test their knowledge and get personalized guidance.',
+'home.startLearning': 'Start Learning →',
+'home.exploreServices': 'Explore Services',
+
+'home.learningFeatures': 'Learning Features',
+'home.smartAdvisor': 'Smart Advisor',
+'home.learningFocused': 'Learning Focused',
+'home.learn': 'Learn',
+'home.ai': 'AI',
+'home.achieve': 'Achieve',
+
+'home.aboutLabel': 'About GreenGrow',
+'home.aboutTitle': 'Making agricultural learning simple',
+'home.aboutDescription':
+  'GreenGrow combines educational content, quizzes, progress tracking, community interaction and an AI-powered advisor into one easy-to-use platform.',
+
+'home.sustainable': 'Sustainable',
+'home.sustainableDesc':
+  'Discover environmentally responsible farming practices.',
+
+'home.educational': 'Educational',
+'home.educationalDesc':
+  'Learn through structured topics, lessons and quizzes.',
+
+'home.intelligent': 'Intelligent',
+'home.intelligentDesc':
+  'Get personalized assistance through the AI advisor.',
+
+'home.servicesLabel': 'Our Services',
+'home.servicesTitle': 'Everything you need to grow',
+'home.servicesDescription':
+  'Explore tools designed to make agricultural learning engaging and practical.',
+
+'home.ctaTitle': 'Ready to grow your knowledge?',
+'home.ctaDescription':
+  'Join GreenGrow and start learning sustainable farming practices today.',
+'home.createAccount': 'Create Free Account →',
+
+'home.contactLabel': 'Contact',
+'home.contactTitle': 'Have questions?',
+'home.contactDescription':
+  "We'd love to hear from you. Connect with the GreenGrow team.",
+'home.support': 'GreenGrow Support',
+'home.footerDescription': 'Smart learning for sustainable agriculture.',
+'home.footerRights': 'All rights reserved.',
+
+
+// ================= NAVBAR =================
+
+'nav.about': 'About',
+'nav.services': 'Services',
+'nav.contact': 'Contact',
+'nav.getStarted': 'Get Started',
+'nav.openMenu': 'Open menu',
+'nav.closeMenu': 'Close menu',
+
+
+// ================= LOGIN EXTRA =================
+
+'login.title': 'Welcome Back',
+'login.description': 'Login to continue your GreenGrow journey.',
+'login.emailLabel': 'Email',
+'login.passwordLabel': 'Password',
+'login.emailPlaceholderFull': 'Enter your email',
+'login.passwordPlaceholderFull': 'Enter your password',
+'login.loading': 'Logging in...',
+'login.google': 'Continue with Google',
+'login.or': 'OR',
+'login.createAccount': 'Create Account',
+
+
+// ================= SIGNUP EXTRA =================
+
+'signup.title': 'Create Your Account',
+'signup.description': 'Start your sustainable farming learning journey.',
+'signup.nameLabel': 'Full Name',
+'signup.emailLabel': 'Email',
+'signup.passwordLabel': 'Password',
+'signup.confirmPasswordLabel': 'Confirm Password',
+'signup.namePlaceholderFull': 'Enter your name',
+'signup.emailPlaceholderFull': 'Enter your email',
+'signup.passwordPlaceholderFull': 'Create a password',
+'signup.confirmPasswordPlaceholderFull': 'Confirm your password',
+'signup.loading': 'Creating account...',
+'signup.google': 'Continue with Google',
+'signup.or': 'OR',
+
+
+// ================= ERRORS =================
+
+'errors.passwordMismatch': 'Passwords do not match.',
+'errors.agreeRequired': 'Please agree to the Terms & Conditions.',
+'errors.userDisabled': 'This account has been disabled.',
+'errors.googleCancelled': 'Google sign-in was cancelled.',
+'errors.googlePopupBlocked':
+  'The Google sign-in popup was blocked. Please allow popups and try again.',
+'errors.differentCredential':
+  'An account already exists with this email using another sign-in method.',
+'errors.tooManyRequests':
+  'Too many attempts. Please try again later.',
+  'home.trackProgressTitle': 'Track Progress',
+'home.trackProgressDesc':
+  'Monitor your learning journey, completed lessons, quizzes and achievements.',
   },
 
   hi: {
@@ -351,6 +460,115 @@ export const TRANSLATIONS = {
     'advisor.tag.higherYield': 'अधिक पैदावार',
     'advisor.tag.saveWater': 'पानी बचाएं',
     'advisor.tag.restoreSoil': 'मिट्टी सुधारें',
+    // ================= HOME EXTRA =================
+
+'home.smartBadge': 'स्मार्ट और टिकाऊ कृषि',
+'home.heroHeading1': 'ज्ञान बढ़ाएं।',
+'home.heroHeading2': 'बेहतर खेती करें।',
+'home.heroDescription':
+  'GreenGrow एक लर्निंग प्लेटफॉर्म है जो किसानों और कृषि शिक्षार्थियों को टिकाऊ खेती के तरीकों को सीखने, अपने ज्ञान का परीक्षण करने और व्यक्तिगत मार्गदर्शन प्राप्त करने में मदद करता है।',
+'home.startLearning': 'सीखना शुरू करें →',
+'home.exploreServices': 'सेवाएं देखें',
+
+'home.learningFeatures': 'लर्निंग फीचर्स',
+'home.smartAdvisor': 'स्मार्ट सलाहकार',
+'home.learningFocused': 'सीखने पर केंद्रित',
+'home.learn': 'सीखें',
+'home.ai': 'एआई',
+'home.achieve': 'उपलब्धि',
+
+'home.aboutLabel': 'GreenGrow के बारे में',
+'home.aboutTitle': 'कृषि सीखने को आसान बनाना',
+'home.aboutDescription':
+  'GreenGrow शैक्षिक सामग्री, क्विज़, प्रगति ट्रैकिंग, सामुदायिक बातचीत और एआई सलाहकार को एक आसान प्लेटफॉर्म में जोड़ता है।',
+
+'home.sustainable': 'टिकाऊ',
+'home.sustainableDesc':
+  'पर्यावरण के अनुकूल खेती के तरीकों की जानकारी प्राप्त करें.',
+
+'home.educational': 'शैक्षिक',
+'home.educationalDesc':
+  'संरचित विषयों, पाठों और क्विज़ के माध्यम से सीखें।',
+
+'home.intelligent': 'बुद्धिमान',
+'home.intelligentDesc':
+  'एआई सलाहकार के माध्यम से व्यक्तिगत सहायता प्राप्त करें।',
+
+'home.servicesLabel': 'हमारी सेवाएं',
+'home.servicesTitle': 'बेहतर खेती सीखने के लिए सब कुछ',
+'home.servicesDescription':
+  'कृषि सीखने को रोचक और व्यावहारिक बनाने के लिए बनाए गए टूल देखें।',
+
+'home.ctaTitle': 'अपना ज्ञान बढ़ाने के लिए तैयार हैं?',
+'home.ctaDescription':
+  'GreenGrow से जुड़ें और आज से टिकाऊ खेती सीखना शुरू करें।',
+'home.createAccount': 'मुफ़्त खाता बनाएं →',
+
+'home.contactLabel': 'संपर्क',
+'home.contactTitle': 'कोई सवाल है?',
+'home.contactDescription':
+  'हम आपसे सुनना पसंद करेंगे। GreenGrow टीम से जुड़ें।',
+'home.support': 'GreenGrow सहायता',
+'home.footerDescription': 'टिकाऊ कृषि के लिए स्मार्ट लर्निंग।',
+'home.footerRights': 'सर्वाधिकार सुरक्षित।',
+
+
+// ================= NAVBAR =================
+
+'nav.about': 'हमारे बारे में',
+'nav.services': 'सेवाएं',
+'nav.contact': 'संपर्क',
+'nav.getStarted': 'शुरू करें',
+'nav.openMenu': 'मेनू खोलें',
+'nav.closeMenu': 'मेनू बंद करें',
+
+
+// ================= LOGIN EXTRA =================
+
+'login.title': 'पुनः स्वागत है',
+'login.description': 'अपनी GreenGrow यात्रा जारी रखने के लिए लॉगिन करें।',
+'login.emailLabel': 'ईमेल',
+'login.passwordLabel': 'पासवर्ड',
+'login.emailPlaceholderFull': 'अपना ईमेल दर्ज करें',
+'login.passwordPlaceholderFull': 'अपना पासवर्ड दर्ज करें',
+'login.loading': 'लॉगिन हो रहा है...',
+'login.google': 'Google के साथ जारी रखें',
+'login.or': 'या',
+'login.createAccount': 'खाता बनाएं',
+
+
+// ================= SIGNUP EXTRA =================
+
+'signup.title': 'अपना खाता बनाएं',
+'signup.description': 'अपनी टिकाऊ कृषि सीखने की यात्रा शुरू करें।',
+'signup.nameLabel': 'पूरा नाम',
+'signup.emailLabel': 'ईमेल',
+'signup.passwordLabel': 'पासवर्ड',
+'signup.confirmPasswordLabel': 'पासवर्ड की पुष्टि करें',
+'signup.namePlaceholderFull': 'अपना नाम दर्ज करें',
+'signup.emailPlaceholderFull': 'अपना ईमेल दर्ज करें',
+'signup.passwordPlaceholderFull': 'पासवर्ड बनाएं',
+'signup.confirmPasswordPlaceholderFull': 'अपना पासवर्ड दोबारा दर्ज करें',
+'signup.loading': 'खाता बनाया जा रहा है...',
+'signup.google': 'Google के साथ जारी रखें',
+'signup.or': 'या',
+
+
+// ================= ERRORS =================
+
+'errors.passwordMismatch': 'पासवर्ड मेल नहीं खाते।',
+'errors.agreeRequired': 'कृपया नियम और शर्तों से सहमत हों।',
+'errors.userDisabled': 'यह खाता बंद कर दिया गया है।',
+'errors.googleCancelled': 'Google साइन-इन रद्द कर दिया गया।',
+'errors.googlePopupBlocked':
+  'Google साइन-इन पॉपअप ब्लॉक हो गया है। कृपया पॉपअप की अनुमति दें और फिर प्रयास करें।',
+'errors.differentCredential':
+  'इस ईमेल से पहले से एक खाता किसी अन्य साइन-इन तरीके से मौजूद है।',
+'errors.tooManyRequests':
+  'बहुत अधिक प्रयास किए गए। कृपया बाद में पुनः प्रयास करें।',
+  'home.trackProgressTitle': 'प्रगति देखें',
+'home.trackProgressDesc':
+  'अपनी सीखने की यात्रा, पूरी की गई सीख, क्विज़ और उपलब्धियों पर नज़र रखें।',
   },
 
   mr: {
@@ -522,5 +740,114 @@ export const TRANSLATIONS = {
     'advisor.tag.higherYield': 'अधिक उत्पादन',
     'advisor.tag.saveWater': 'पाणी वाचवा',
     'advisor.tag.restoreSoil': 'माती सुधारणा',
+    // ================= HOME EXTRA =================
+
+'home.smartBadge': 'स्मार्ट आणि शाश्वत शेती',
+'home.heroHeading1': 'ज्ञान वाढवा.',
+'home.heroHeading2': 'शेती अधिक चांगली करा.',
+'home.heroDescription':
+  'GreenGrow हे एक शिक्षण व्यासपीठ आहे जे शेतकरी आणि कृषी शिकणाऱ्यांना शाश्वत शेती पद्धती जाणून घेण्यास, ज्ञानाची चाचणी घेण्यास आणि वैयक्तिक मार्गदर्शन मिळविण्यास मदत करते.',
+'home.startLearning': 'शिकण्यास सुरुवात करा →',
+'home.exploreServices': 'सेवा पहा',
+
+'home.learningFeatures': 'शिकण्याची वैशिष्ट्ये',
+'home.smartAdvisor': 'स्मार्ट सल्लागार',
+'home.learningFocused': 'शिकण्यावर केंद्रित',
+'home.learn': 'शिका',
+'home.ai': 'एआय',
+'home.achieve': 'यश',
+
+'home.aboutLabel': 'GreenGrow बद्दल',
+'home.aboutTitle': 'कृषी शिक्षण सोपे बनवणे',
+'home.aboutDescription':
+  'GreenGrow शैक्षणिक सामग्री, क्विझ, प्रगतीचा मागोवा, समुदाय संवाद आणि एआय सल्लागार एका सोप्या व्यासपीठात एकत्र आणते.',
+
+'home.sustainable': 'शाश्वत',
+'home.sustainableDesc':
+  'पर्यावरणपूरक शेती पद्धती जाणून घ्या.',
+
+'home.educational': 'शैक्षणिक',
+'home.educationalDesc':
+  'संरचित विषय, धडे आणि क्विझद्वारे शिका.',
+
+'home.intelligent': 'बुद्धिमान',
+'home.intelligentDesc':
+  'एआय सल्लागाराद्वारे वैयक्तिक मदत मिळवा.',
+
+'home.servicesLabel': 'आमच्या सेवा',
+'home.servicesTitle': 'शिकण्यासाठी आवश्यक सर्व काही',
+'home.servicesDescription':
+  'कृषी शिक्षण अधिक मनोरंजक आणि व्यावहारिक बनवण्यासाठी तयार केलेली साधने पहा.',
+
+'home.ctaTitle': 'तुमचे ज्ञान वाढवण्यासाठी तयार आहात?',
+'home.ctaDescription':
+  'GreenGrow मध्ये सामील व्हा आणि आजपासून शाश्वत शेती शिकण्यास सुरुवात करा.',
+'home.createAccount': 'मोफत खाते तयार करा →',
+
+'home.contactLabel': 'संपर्क',
+'home.contactTitle': 'काही प्रश्न आहेत?',
+'home.contactDescription':
+  'आम्हाला तुमच्याशी संवाद साधायला आवडेल. GreenGrow टीमशी संपर्क साधा.',
+'home.support': 'GreenGrow सहाय्य',
+'home.footerDescription': 'शाश्वत शेतीसाठी स्मार्ट शिक्षण.',
+'home.footerRights': 'सर्व हक्क राखीव.',
+
+
+// ================= NAVBAR =================
+
+'nav.about': 'आमच्याबद्दल',
+'nav.services': 'सेवा',
+'nav.contact': 'संपर्क',
+'nav.getStarted': 'सुरुवात करा',
+'nav.openMenu': 'मेनू उघडा',
+'nav.closeMenu': 'मेनू बंद करा',
+
+
+// ================= LOGIN EXTRA =================
+
+'login.title': 'पुन्हा स्वागत आहे',
+'login.description': 'तुमचा GreenGrow प्रवास सुरू ठेवण्यासाठी लॉगिन करा.',
+'login.emailLabel': 'ईमेल',
+'login.passwordLabel': 'पासवर्ड',
+'login.emailPlaceholderFull': 'तुमचा ईमेल टाका',
+'login.passwordPlaceholderFull': 'तुमचा पासवर्ड टाका',
+'login.loading': 'लॉगिन होत आहे...',
+'login.google': 'Google सह सुरू ठेवा',
+'login.or': 'किंवा',
+'login.createAccount': 'खाते तयार करा',
+
+
+// ================= SIGNUP EXTRA =================
+
+'signup.title': 'तुमचे खाते तयार करा',
+'signup.description': 'तुमचा शाश्वत शेती शिक्षणाचा प्रवास सुरू करा.',
+'signup.nameLabel': 'पूर्ण नाव',
+'signup.emailLabel': 'ईमेल',
+'signup.passwordLabel': 'पासवर्ड',
+'signup.confirmPasswordLabel': 'पासवर्डची पुष्टी करा',
+'signup.namePlaceholderFull': 'तुमचे नाव टाका',
+'signup.emailPlaceholderFull': 'तुमचा ईमेल टाका',
+'signup.passwordPlaceholderFull': 'पासवर्ड तयार करा',
+'signup.confirmPasswordPlaceholderFull': 'तुमचा पासवर्ड पुन्हा टाका',
+'signup.loading': 'खाते तयार होत आहे...',
+'signup.google': 'Google सह सुरू ठेवा',
+'signup.or': 'किंवा',
+
+
+// ================= ERRORS =================
+
+'errors.passwordMismatch': 'पासवर्ड जुळत नाहीत.',
+'errors.agreeRequired': 'कृपया नियम आणि अटी मान्य करा.',
+'errors.userDisabled': 'हे खाते बंद करण्यात आले आहे.',
+'errors.googleCancelled': 'Google साइन-इन रद्द करण्यात आले.',
+'errors.googlePopupBlocked':
+  'Google साइन-इन पॉपअप ब्लॉक करण्यात आले आहे. कृपया पॉपअपला परवानगी द्या आणि पुन्हा प्रयत्न करा.',
+'errors.differentCredential':
+  'या ईमेलसह दुसऱ्या साइन-इन पद्धतीने खाते आधीपासून अस्तित्वात आहे.',
+'errors.tooManyRequests':
+  'खूप प्रयत्न झाले. कृपया नंतर पुन्हा प्रयत्न करा.',
+  'home.trackProgressTitle': 'प्रगतीचा मागोवा घ्या',
+'home.trackProgressDesc':
+  'तुमचा शिकण्याचा प्रवास, पूर्ण केलेले धडे, क्विझ आणि उपलब्धींचा मागोवा घ्या.',
   },
 }
