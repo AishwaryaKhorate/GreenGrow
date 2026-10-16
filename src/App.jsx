@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { AuthProvider } from './contexts/AuthContext'
 import ProtectedRoute from './components/ProtectedRoute'
@@ -16,6 +17,7 @@ import Progress from './pages/Progress'
 import Community from './pages/Community'
 import AIAdvisor from './pages/AIAdvisor'
 import Profile from './pages/Profile'
+import Feedback from './pages/Feedback'
 
 export default function App() {
   return (
@@ -30,18 +32,22 @@ export default function App() {
             path="/"
             element={<Homepage />}
           />
+          
+
           <Route
             path="/home"
             element={<Homepage />}
           />
+
           <Route
             path="/homepage"
             element={<Homepage />}
-          /> 
+          />
+
           <Route
             path="/Homepage"
             element={<Homepage />}
-          />   
+          />
 
           {/* =========================
               LOGIN
@@ -67,6 +73,7 @@ export default function App() {
             }
           />
 
+
           {/* =========================
               PROTECTED DASHBOARD
           ========================== */}
@@ -78,17 +85,22 @@ export default function App() {
               </ProtectedRoute>
             }
           >
-            {/* First page inside dashboard */}
+            {/* Dashboard home */}
             <Route index element={<Dashboard />} />
 
+            {/* Learning modules */}
             <Route path="topics" element={<TopicsList />} />
             <Route path="topics/:topicId" element={<TopicDetail />} />
             <Route path="topics/:topicId/quiz" element={<Quiz />} />
+
+            {/* Other modules */}
             <Route path="advisor" element={<AIAdvisor />} />
             <Route path="leaderboard" element={<Leaderboard />} />
             <Route path="progress" element={<Progress />} />
             <Route path="community" element={<Community />} />
-            <Route path="profile" element={<Profile />} />
+<Route path="profile" element={<Profile />} />
+<Route path="feedback" element={<Feedback />} />
+            {/* New Feedback module */}
           </Route>
 
         </Routes>
